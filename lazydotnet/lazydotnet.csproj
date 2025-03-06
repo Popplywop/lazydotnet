@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sharpie-Curses" Version="1.7.0" />
+    <PackageReference Include="Sharpie-Libs-NCurses" Version="1.0.5" />
+    <PackageReference Include="Sharpie-Libs-PdCurses" Version="1.0.3" />
+    <PackageReference Include="Sharpie-Libs-PdCursesMod" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>
